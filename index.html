@@ -4,7 +4,84 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Алина Фомина — Йога и путешествия</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background: #f4f1de;
+      color: #3d405b;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 3em;
+      color: #81b29a;
+    }
+    .slogan {
+      font-size: 1.3em;
+      color: #6b705c;
+      margin-top: 5px;
+    }
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      background: #fff;
+      padding: 30px 25px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(140,144,148,0.2);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #81b29a;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    .icons a {
+      display: inline-flex;
+      transition: transform 0.3s ease, color 0.3s ease;
+      color: #6b705c;
+    }
+    .icons a:hover {
+      color: #f2cc8f;
+      transform: scale(1.1);
+    }
+    .icons svg {
+      width: 32px;
+      height: 32px;
+      fill: currentColor;
+    }
+    footer {
+      text-align: center;
+      color: #a5a58d;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 15px;
+      }
+      header h1 {
+        font-size: 2.4em;
+      }
+      .slogan {
+        font-size: 1.1em;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,27 +89,6 @@
     <p class="slogan">Йога и путешествия. Путь к себе.</p>
   </header>
 
-  <section class="about">
-    <h2>Обо мне</h2>
-    <p>
-      Изучаю тело, ум и мир.<br />
-      Сертифицированный инструктор по йоге.<br />
-      Магистр психологии.<br />
-      Путешествую, практикую и делюсь своим опытом.
-    </p>
-  </section>
-
-  <section class="contacts">
-    <h2>Контакты</h2>
-    <div class="icons">
-      <a href="mailto:fao1988@gmail.com" title="Почта" target="_blank">📧</a>
-      <a href="https://instagram.com/alinen.0k" title="Instagram" target="_blank">📷</a>
-      <a href="https://t.me/alinjenok" title="Telegram" target="_blank">📲</a>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Алина Фомина</p>
-  </footer>
-</body>
-</html>
+  <main>
+    <section class="about">
+      <h2>Об
